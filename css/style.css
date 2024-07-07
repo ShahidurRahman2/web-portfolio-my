@@ -5,12 +5,18 @@
     font-variation-settings:
       "wdth" 100;
   }
-  *{margin: 0;
+  /* *{margin: 0;
   padding: 0;
   
-  }
+  } */
+
  .text-primary{
   color:#F86D0A ;
+ }
+ .header{
+  background-image:url(../images/developer.png) ,url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left,bottom right ;
  }
   nav{
     display: flex;
@@ -58,7 +64,38 @@
   color: #181818;
   font-size: 20px;
  }
-  ul li .btn{}
+ .banner{
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 35px 0px 200px;
+ }
+ .banner-container{
+  max-width: 540px;
+ margin-top: 280px;
+ }
+.banner-title{
+ 
+}
+.banner-intro{
+  font-size: 45px;
+ font-weight: 600;
+}
+.banner-discription{
+  color: #35424C;
+
+}
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.parent{
+height: 700px;
+  width: 1140px;
+background: #FFF8F3;
+}
+.parent1{
+  background: #fff;
+  width: 911px;
   
-  
-  
+  padding:150px 50px 150px 50px;
+}
