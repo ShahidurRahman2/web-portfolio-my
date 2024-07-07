@@ -9,20 +9,55 @@
   padding: 0;
   
   }
-  #hdp{
-      display: flex;
-  
+ .text-primary{
+  color:#F86D0A ;
+ }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    margin-top: 30px;
   }
   .pagep{
-  
+
+    /* text-decoration: none; */
+    
+    
+
   }
-  .mary{
-  
+  .nav-title{
+  font-weight: 800;
+  font-size: 40px;
   }
-  ul .page{}
-  ul li .pc{
-  
+  nav ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* margin-bottom: 30px; */
   }
+  nav ul li{
+    list-style: none;
+    /* justify-content: center; */
+   
+  }
+  ul {
+
+  }
+ .btn-primary{
+  color: #fff ;
+  background-color:#F86D0A;
+  padding:8px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+
+  
+ }
+ .dark2{
+  color: #181818;
+  font-size: 20px;
+ }
   ul li .btn{}
   
   
