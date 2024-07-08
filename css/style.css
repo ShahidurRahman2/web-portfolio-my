@@ -13,6 +13,11 @@
  .text-primary{
   color:#F86D0A ;
  }
+ header{
+  max-width: 1700px;
+  border: 2px solid red;
+  max-height: 1500px;
+ }
  .header{
   background-image:url(../images/developer.png) ,url(../images/header_bg.png);
   background-repeat: no-repeat;
@@ -85,17 +90,37 @@
 
 }
 main{
-  max-width: 1140px;
+  max-width: 1700px;
   margin: 0 auto;
 }
 .parent{
-height: 700px;
-  width: 1140px;
+height: 400px;
+  width: 1200px;
 background: #FFF8F3;
+margin-top: 100px;
+margin-left: 200px;
+
+
 }
 .parent1{
   background: #fff;
-  width: 911px;
-  
-  padding:150px 50px 150px 50px;
+  width: 80%;
+  height: 70%;
+  margin:70px 50px 70px 120px;
+  padding: ;
+ 
+ 
+ 
+}
+.secondary-bg{
+  display: flex;
+   
+}
+.about{
+ display: inline;
+ text-align: center;
+}
+.list-items{
+  display: flex;
+justify-content: space-around;
 }
