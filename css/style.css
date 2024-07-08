@@ -15,7 +15,6 @@
  }
  header{
   max-width: 1700px;
-  border: 2px solid red;
   max-height: 1500px;
  }
  .header{
@@ -30,13 +29,7 @@
     margin: 0 200px;
     margin-top: 30px;
   }
-  .pagep{
-
-    /* text-decoration: none; */
-    
-    
-
-  }
+  
   .nav-title{
   font-weight: 800;
   font-size: 40px;
@@ -90,25 +83,25 @@
 
 }
 main{
-  max-width: 1700px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 .parent{
 height: 400px;
-  width: 1200px;
+  
 background: #FFF8F3;
 margin-top: 100px;
-margin-left: 200px;
+margin-left: 100px;
 
 
 }
 .parent1{
-  background: #fff;
+  
   width: 80%;
   height: 70%;
-  margin:70px 50px 70px 120px;
-  padding: ;
- 
+  margin:50px 50px 70px 120px;
+ text-align: center;
+ padding-top: 100px;
  
  
 }
