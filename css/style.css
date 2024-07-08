@@ -91,7 +91,7 @@ height: 400px;
   
 background: #FFF8F3;
 margin-top: 100px;
-margin-left: 100px;
+/* margin-left: 30px; */
 
 
 }
@@ -117,3 +117,37 @@ margin-left: 100px;
   display: flex;
 justify-content: space-around;
 }
+/* ---------section 2-------- */
+.section2{
+ 
+  margin-top: 120px;
+  height: 550px;
+  width: 100%;
+  
+}
+.what{
+  text-align: center;
+  margin-left:100px ;
+  margin-right: 100px;
+
+ 
+
+}
+.what-title{
+  font-weight: bold;
+}
+.what-about{
+  
+}
+.skill-group{
+  margin-top: 50px;
+ 
+  display: flex;
+ gap: 20px;
+}
+.skill-item{
+
+ width: 260px;
+ margin-left: 10px;
+}
+.skill-p{}
