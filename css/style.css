@@ -30,17 +30,17 @@
 background: #379949;
 padding: 10px 10px 0px 10px;
  }
-  nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
-    margin-top: 30px;
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+  margin-top: 30px;
   }
   
-  .nav-title{
-  font-weight: 800;
-  font-size: 40px;
+.nav-title{
+   font-weight: 800;
+   font-size: 40px;
   }
   nav ul{
     display: flex;
@@ -73,15 +73,15 @@ padding: 10px 10px 0px 10px;
   justify-content: space-between;
   margin: 0px 35px 0px 200px;
  }
- .banner-container{
+.banner-container{
   max-width: 540px;
- margin-top: 280px;
+  margin-top: 280px;
  }
 
 
 .banner-intro{
   font-size: 45px;
- font-weight: 600;
+  font-weight: 600;
 }
 .banner-discription{
   color: #35424C;
@@ -92,11 +92,11 @@ main{
   margin: 0 auto;
 }
 .parent{
-height: 400px;
+ height: 400px;
   
-background: #FFF8F3;
-margin-top: 100px;
-/* margin-left: 30px; */
+ background: #FFF8F3;
+ margin-top: 100px;
+
 
 
 }
@@ -105,8 +105,8 @@ margin-top: 100px;
   width: 80%;
   height: 70%;
   margin:50px 50px 70px 120px;
- text-align: center;
- padding-top: 100px;
+  text-align: center;
+  padding-top: 100px;
  
  
 }
@@ -115,12 +115,12 @@ margin-top: 100px;
    
 }
 .about{
- display: inline;
- text-align: center;
+  display: inline;
+  text-align: center;
 }
 .list-items{
   display: flex;
-justify-content: space-around;
+  justify-content: space-around;
 }
 /* ---------section 2-------- */
 .section2{
@@ -142,7 +142,7 @@ justify-content: space-around;
   margin-top: 50px;
  
   display: flex;
- gap: 20px;
+  gap: 20px;
 }
 .skill-item{
 
@@ -157,8 +157,8 @@ justify-content: space-around;
   margin-top: 150px;
 }
 .golden-title{
-text-align: center;
-font-weight: 800;
+ text-align: center;
+ font-weight: 800;
 
 }
 
@@ -172,8 +172,8 @@ hr{
 }
 
 .supersecond{
- display: flex;
- margin-bottom: 40px;
+  display: flex;
+  margin-bottom: 40px;
 
 }
 .superthird{
@@ -200,8 +200,8 @@ hr{
   font-weight: bold;
   font-size: 20px;
   border-radius: 5px;
- margin-left: 450px;
- margin-top: 50px;
+  margin-left: 450px;
+  margin-top: 50px;
   
 }
 i{
@@ -220,19 +220,19 @@ footer{
  height: 95%;
  display: flex;
  width: 1140px;
-margin-left: 260px;
-justify-content: space-between;
-margin-top: 100px;
+ margin-left: 250px;
+ margin-top: 100px;
+ gap: 100px;
 
 }
 .connect-form{
- margin-top: 50px;
+  margin-top: 50px;
   width: 50%;
-margin-left: 150px;
+  
  
 }
 .connect-form input{
- width: 400px;
+  width: 400px;
   height: 45px;
   border-radius: 4px;
   margin: 10px 0px 10px 0px;
