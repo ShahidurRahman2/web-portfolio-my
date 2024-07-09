@@ -127,7 +127,7 @@ main{
  
   margin-top: 120px;
   height: 550px;
-  width: 100%;
+  max-width:1140px;
   
 }
 .what{
@@ -153,7 +153,7 @@ main{
 /* -----------section3------------------ */
 
 .section3{
-  width: 100%; 
+  max-width:1140px; 
   margin-top: 150px;
 }
 .golden-title{
@@ -256,6 +256,8 @@ textarea{
 }
 .icon1{
   background-color: #fff;
-  width: 20px;
-  height: 20px;
+  padding: 20px;
+}
+.icon1:hover{
+background: #F86D0A;
 }
