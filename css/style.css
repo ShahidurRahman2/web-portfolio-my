@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 .open-sans-normal{
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -22,6 +23,13 @@
   background-repeat: no-repeat;
   background-position: top left,bottom right ;
  }
+ .menu1{
+  padding: 0px 10px 0px 10px;
+ }
+ .menu1:hover{
+background: #379949;
+padding: 10px 10px 0px 10px;
+ }
   nav{
     display: flex;
     align-items: center;
@@ -42,11 +50,7 @@
   }
   nav ul li{
     list-style: none;
-    /* justify-content: center; */
    
-  }
-  ul {
-
   }
  .btn-primary{
   color: #fff ;
@@ -55,8 +59,10 @@
   font-weight: bold;
   font-size: 20px;
   border-radius: 5px;
-
   
+ }
+ .btn-primary:hover{
+  background: #6bd508;
  }
  .dark2{
   color: #181818;
@@ -71,9 +77,8 @@
   max-width: 540px;
  margin-top: 280px;
  }
-.banner-title{
- 
-}
+
+
 .banner-intro{
   font-size: 45px;
  font-weight: 600;
@@ -129,15 +134,9 @@ justify-content: space-around;
   text-align: center;
   margin-left:100px ;
   margin-right: 100px;
-
- 
-
 }
 .what-title{
   font-weight: bold;
-}
-.what-about{
-  
 }
 .skill-group{
   margin-top: 50px;
@@ -150,4 +149,114 @@ justify-content: space-around;
  width: 260px;
  margin-left: 10px;
 }
-.skill-p{}
+
+/* -----------section3------------------ */
+
+.section3{
+         width: 100%;
+         
+         margin-top: 150px;
+}
+.golden-title{
+text-align: center;
+font-weight: 800;
+
+}
+
+.superfirst{
+  display: flex;
+  margin-bottom: 40px;
+
+}
+hr{
+  width: 520px;
+}
+
+.supersecond{
+ display: flex;
+ margin-bottom: 40px;
+
+}
+.superthird{
+  margin-bottom: 40px;
+  display: flex;
+}
+.skill-item{
+  width: 250px; ;
+  
+  
+  box-shadow: 0px 5px 50px 0px #353434;
+}
+.skill-item:hover{
+  
+  box-shadow: 0px 10px 70px 0px #F86D0A;
+}
+.skill-p{
+  margin-left: 10px;
+}
+.btn{
+  color: #fff ;
+  background-color:#F86D0A;
+  padding:9px 15px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+ margin-left: 450px;
+ margin-top: 50px;
+  
+}
+i{
+  color: #35424C;
+  margin-right: 10px;
+}
+
+/* ---------------footer------------------ */
+footer{
+  width: 1700px;
+  background-color: #FFF8F3;
+  height: 500px;
+
+}
+.footer-container{
+ height: 95%;
+ display: flex;
+ width: 1140px;
+margin-left: 260px;
+justify-content: space-between;
+margin-top: 100px;
+
+}
+.connect-form{
+ margin-top: 50px;
+  width: 50%;
+margin-left: 150px;
+ 
+}
+.connect-form input{
+ width: 400px;
+  height: 45px;
+  border-radius: 4px;
+  margin: 10px 0px 10px 0px;
+  border: none;
+
+}
+.connect{
+  margin-top: 50px;
+  width: 50%;
+  
+}
+.ftbtn{
+  margin-top: 30px;
+}
+textarea{
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  width: 400px;
+  height: 45px;
+}
+.icon1{
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+}
